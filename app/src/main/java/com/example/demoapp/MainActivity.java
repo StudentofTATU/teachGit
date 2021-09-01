@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
         //asas
 //        sas
     }
-    public void salom(){
-        int a=10;
-    }
+
     public void makeToast(){
+        Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
     }
 }
